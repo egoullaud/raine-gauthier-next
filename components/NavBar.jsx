@@ -8,7 +8,7 @@ function NavBar() {
         <h1 className="text-center my-[5rem] text-5xl">
           Raine Gauthier <br /> Photography
         </h1>
-        <ul className="flex justify-evenly w-[60%]">
+        <ul className="flex justify-evenly w-[60%] lg:text-xl">
           <li>
             <Link href="/">overview</Link>
           </li>
