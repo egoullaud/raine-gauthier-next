@@ -14,7 +14,7 @@ function Hero() {
           <span className="not-italic">— Ansel Adams</span>
         </p>
       </div>
-      <Image src={heroImg} />
+      <Image src={heroImg} className="" />
     </div>
   );
 }
