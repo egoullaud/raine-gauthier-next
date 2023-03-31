@@ -3,8 +3,8 @@ import Link from "next/link";
 
 function NavBar() {
   return (
-    <div>
-      <nav className="uppercase flex flex-col justify-center items-center border-b-2 pb-2">
+    <div className="mx-2">
+      <nav className="uppercase flex flex-col justify-center items-center border-b-2 border-[#1f1f1f] pb-2">
         <h1 className="text-center my-[5rem] text-5xl">
           Raine Gauthier <br /> Photography
         </h1>
