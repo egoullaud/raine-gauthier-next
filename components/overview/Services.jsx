@@ -5,7 +5,7 @@ import videography from "../../public/services/videography6.jpg";
 
 function Services() {
   return (
-    <div className="bg-[#1f1f1f] text-white  py-[3rem]">
+    <div className="bg-[#1f1f1f] text-white pt-[5rem] pb-[3rem]">
       <div className="flex justify-center">
         <div
           className="flex flex-col justify-start items-center
