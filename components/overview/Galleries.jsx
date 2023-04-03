@@ -1,4 +1,5 @@
 import React from "react";
+import Cta from "../Cta";
 
 function Galleries() {
   return (
@@ -7,6 +8,8 @@ function Galleries() {
         Check out my work
       </h3>
       <div></div>
+
+      <Cta />
     </div>
   );
 }
