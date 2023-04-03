@@ -2,10 +2,14 @@ import React from "react";
 import Image from "next/image";
 import photography from "../../public/services/photography.jpg";
 import videography from "../../public/services/videography6.jpg";
+import Cta from "../Cta";
 
 function Services() {
   return (
-    <div className="bg-[#1f1f1f] text-white pt-[5rem] pb-[3rem]">
+    <div className="bg-[#1f1f1f] text-white pt-[5rem] pb-[3rem] flex flex-col justify-center items-center">
+      <h1 className="text-2xl lg:text-4xl text-center  uppercase mb-[4rem]">
+        Work with Me
+      </h1>
       <div className="flex justify-center">
         <div
           className="flex flex-col justify-start items-center
@@ -35,6 +39,7 @@ function Services() {
           </p>
         </div>
       </div>
+      <Cta />
     </div>
   );
 }
