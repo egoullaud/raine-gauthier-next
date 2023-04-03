@@ -6,12 +6,12 @@ function Cta() {
     <div className="flex flex-row justify-around items-center text-xl lg:text-2xl md:w-[50%]">
       <Link href="/about">
         <button className="mx-5 my-1 uppercase hover:transition-all hover:underline hover:duration-1000 tracking-wide">
-          Meet Raine
+          Meet Me
         </button>
       </Link>
       <Link href="/contact">
         <button className="mx-5 my-1 uppercase hover:transition-all hover:underline hover:duration-1000 tracking-wide">
-          Get in Touch
+          Work with Me
         </button>
       </Link>
     </div>
