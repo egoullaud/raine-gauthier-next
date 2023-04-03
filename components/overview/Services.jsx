@@ -6,37 +6,34 @@ import Cta from "../Cta";
 
 function Services() {
   return (
-    <div className="bg-[#1f1f1f] text-white py-[2rem] flex flex-col justify-center items-center">
-      <h1 className="text-2xl lg:text-4xl text-center  uppercase mb-[2rem]">
-        Work with Me
-      </h1>
-      <div className="flex flex-col md:flex-row justify-center items-center">
+    <div className="bg-[#363636] text-white py-[2rem] flex flex-col justify-center items-center">
+      <div className="flex flex-col md:flex-row justify-around items-center xl:justify-center">
         <div
-          className="flex flex-col justify-center items-center mx-4
+          className="flex flex-col justify-center items-center ml-4
           md:w-[45%] 
-          lg:w-[40%]
-        xl:w-[30%]"
+          lg:w-[50%]
+          xl:w-[35%] "
         >
           <Image src={photography} className=" w-[100%] object-cover" />
         </div>
 
         <div
-          className="flex flex-col justify-center items-center
+          className="flex flex-col justify-center items-center py-2
           md:w-[60%]
-          lg:w-[40%]
-          xl:w-[30%]"
+          lg:w-[50%]
+          xl:w-[40%]"
         >
-          <h3 className="lg:text-2xl text-xl font-bold py-4 uppercase tracking-widest">
+          <h3 className=" text-2xl font-bold pb-2  uppercase tracking-widest">
             Photography
           </h3>
-          <p className="w-[90%] text-center tracking-widest">
+          <p className="w-[90%] text-center tracking-widest mb-4">
             I offer a wide range of services, including events, shows,
             festivals, headshots, couple and family portraits.
           </p>
-          <h3 className="lg:text-2xl text-xl font-bold py-4 uppercase tracking-widest">
+          <h3 className=" text-2xl font-bold pb-2  uppercase tracking-widest">
             Videography
           </h3>
-          <p className="w-[90%] text-center mb-5  tracking-widest">
+          <p className="w-[90%] text-center tracking-widest">
             I offer production and post-production services. Looking for someone
             to create your next video for social media? Have an idea for a
             documentary that you would love to see come to life? Let’s chat!
