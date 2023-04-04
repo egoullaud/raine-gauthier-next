@@ -1,3 +1,5 @@
+const { Libre_Baskerville } = require("next/font/google");
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -7,7 +9,7 @@ module.exports = {
   ],
   theme: {
     extend: {
-      fontFamily: ["Baskerville", "regular"],
+      fontFamily: ["Libre_Baskerville", "regular"],
     },
   },
   plugins: [],
