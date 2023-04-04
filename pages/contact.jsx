@@ -1,5 +1,7 @@
 import Form from "@/components/Form";
 import React from "react";
+import { GrFacebook, GrInstagram } from "react-icons/gr";
+import Link from "next/link";
 
 function contact() {
   return (
@@ -20,8 +22,24 @@ function contact() {
             follow me
           </h2>
           <ul className="flex justify-around items-center w-[50%]">
-            <li>facebook</li>
-            <li>instagram</li>
+            <Link
+              href="https://www.facebook.com/rainegphotography/"
+              target="_blank"
+            >
+              {" "}
+              <li>
+                <GrFacebook className="text-3xl" />
+              </li>
+            </Link>
+            <Link
+              href="https://www.instagram.com/rainegphotography/?hl=en"
+              target="_blank"
+            >
+              {" "}
+              <li>
+                <GrInstagram className="text-3xl" />
+              </li>
+            </Link>
           </ul>
         </div>
         <div className="flex flex-col justify-center items-center md:w-[30%] ">
