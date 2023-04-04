@@ -3,7 +3,7 @@ import Link from "next/link";
 
 function NavBar() {
   return (
-    <div className="mx-2 text-[#363636] mb-[1rem]">
+    <div className="mx-2 text-[#363636] mb-[1rem] tracking-wider">
       <nav className="uppercase flex flex-col justify-center items-center border-b-2 border-[#1f1f1f] pb-2">
         <div
           className="text-center my-[2rem]
@@ -11,10 +11,12 @@ function NavBar() {
                         lg:my-[4rem]"
         >
           <Link href="/">
-            <h1 className="text-center text-3xl md:text-5xl lg:text-7xl leading-none">
+            <h1 className="text-center text-3xl md:text-5xl lg:text-7xl leading-none tracking-widest">
               Raine Gauthier
             </h1>
-            <h2 className=" text-xl md:text-3xl lg:text-4xl">Photography</h2>
+            <h2 className=" text-xl md:text-3xl lg:text-4xl tracking-widest">
+              Photography
+            </h2>
           </Link>
         </div>
 
