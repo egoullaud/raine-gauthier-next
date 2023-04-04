@@ -9,8 +9,8 @@ function contact() {
       </h1>
       <div className="flex flex-col justify-center items-center">
         <p className="text-xl text-center tracking-wider">
-          I would love to hear from you! Fill out the form below to get in touch
-          with me.
+          I would love to hear from you! <br /> Fill out the form below to get
+          in touch with me.
         </p>
         <Form />
       </div>
