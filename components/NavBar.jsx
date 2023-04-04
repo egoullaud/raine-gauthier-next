@@ -4,7 +4,7 @@ import Link from "next/link";
 function NavBar() {
   return (
     <div className="mx-2 text-[#363636] mb-[1rem] tracking-wider">
-      <nav className="uppercase flex flex-col justify-center items-center border-b-2 border-[#1f1f1f] pb-2">
+      <nav className="uppercase flex flex-col justify-center items-center border-b-2 border-[#1f1f1f] ">
         <div
           className="text-center my-[2rem]
                       md:my-[3rem]
@@ -21,16 +21,16 @@ function NavBar() {
         </div>
 
         <ul className=" hidden md:flex justify-evenly w-[60%] lg:text-xl">
-          <li>
+          <li className="hover:bg-[#363636] hover:text-white hover:transition-all hover:duration-1000 p-2 px-4 ">
             <Link href="/">overview</Link>
           </li>
-          <li>
+          <li className="hover:bg-[#363636] hover:text-white hover:transition-all hover:duration-1000 p-2 px-4 ">
             <Link href="/about">about</Link>
           </li>
-          <li>
+          <li className="hover:bg-[#363636] hover:text-white hover:transition-all hover:duration-1000 p-2 px-4 ">
             <Link href="/contact">contact</Link>
           </li>
-          <li>
+          <li className="hover:bg-[#363636] hover:text-white hover:transition-all hover:duration-1000 p-2 px-4 ">
             <Link href="/">galleries</Link>
           </li>
         </ul>
