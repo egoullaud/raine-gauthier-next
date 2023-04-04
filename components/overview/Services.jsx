@@ -7,7 +7,7 @@ import Cta from "../Cta";
 function Services() {
   return (
     <div className="flex flex-col mx-2">
-      <h1 className="uppercase text-3xl text-center mt-[2rem] border-b-2 border-[#363636]">
+      <h1 className="uppercase text-3xl text-center mt-[2rem] border-b-2 border-[#363636] tracking-wider">
         services
       </h1>
 
