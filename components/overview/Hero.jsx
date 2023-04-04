@@ -11,7 +11,7 @@ function Hero() {
                         md:text-xl md:mx-[2rem]
                         lg:text-3xl lg:my-[2rem]"
       >
-        <p className="italic ">
+        <p className="italic tracking-wider">
           “When words become unclear, I shall focus with photographs. When
           images become inadequate, I shall be content with silence.”
           <br />
