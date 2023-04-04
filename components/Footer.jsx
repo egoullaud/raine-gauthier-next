@@ -12,7 +12,7 @@ function Footer() {
         </ul>
       </div>
       <div className="lg:w-[33%] lg:py-[3rem] lg:border-x-2 border-[#1f1f1f] my-2 flex-col flex justify-center items-center">
-        <Link href="/">
+        <Link href="/overview">
           <h4 className="text-center py-5 underline text-xl">
             Raine Gauthier Photography
           </h4>
