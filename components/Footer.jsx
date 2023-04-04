@@ -3,7 +3,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="flex flex-col lg:flex-row justify-around border-t-2 border-[#1f1f1f] uppercase">
+    <div className="flex flex-col lg:flex-row justify-around border-t-2 border-[#1f1f1f] uppercase mx-2">
       <div className="lg:w-[33%] lg:py-[3rem] flex-col flex justify-center items-center">
         <h4 className="text-center py-5 underline text-xl">Follow Me</h4>
         <ul className="flex justify-around w-[60%]">
