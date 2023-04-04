@@ -23,7 +23,7 @@ function NavBar() {
             <Link href="/">overview</Link>
           </li>
           <li>
-            <Link href="/">about</Link>
+            <Link href="/about">about</Link>
           </li>
           <li>
             <Link href="/">contact</Link>
