@@ -30,9 +30,6 @@ function NavBar() {
           <li className="hover:bg-[#363636] hover:text-white hover:transition-all hover:duration-1000 p-2 px-4 ">
             <Link href="/contact">contact</Link>
           </li>
-          <li className="hover:bg-[#363636] hover:text-white hover:transition-all hover:duration-1000 p-2 px-4 ">
-            <Link href="/">galleries</Link>
-          </li>
         </ul>
       </nav>
     </div>
